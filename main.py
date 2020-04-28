@@ -77,6 +77,11 @@ def api_root():
     #After prediction
     K.clear_session()
     return jsonify(prediction)
+@app.route('/hello')
+
+def hello():
+    
+    return "Hello flower app works !"
 
 
 if __name__ == '__main__':
