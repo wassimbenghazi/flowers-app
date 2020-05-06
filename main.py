@@ -85,5 +85,5 @@ def hello():
 
 
 if __name__ == '__main__':
-   
-    app.run(host='localhost', debug=True)
+   print("* Starting web server... please wait until server has fully started")
+   app.run(host='0.0.0.0', threaded=False)debug=True)
